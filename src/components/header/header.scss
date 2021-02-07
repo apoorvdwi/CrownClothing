@@ -1,0 +1,30 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .logoContainer {
+    height: 100%;
+    width: 70px;
+    padding: 15px;
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}

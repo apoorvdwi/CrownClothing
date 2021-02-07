@@ -1,0 +1,16 @@
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  padding: 8px 60px;
+  background-color: #eeeeee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
